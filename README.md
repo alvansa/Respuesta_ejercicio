@@ -54,13 +54,13 @@ Hint: Para esta tarea ten en consideración que los tres puntos están relaciona
 
 ## Lo que evaluamos
 
-| Criterios | 
-|----|
-| Calidad del código | 
-| Criterio técnico | 
-| GCP |
-| Documentación |
-| Autonomía |
+| Criterio | Qué miramos |
+|---|---|
+| Calidad del código | ¿Es modular, legible y mantenible por otro? |
+| Criterio técnico | ¿Las decisiones de limpieza están justificadas? |
+| GCP | ¿Entiende los servicios y cuándo usar cada uno? |
+| Documentación | ¿El repo tiene README? ¿El código tiene comentarios útiles? |
+| Autonomía | ¿Resolvió ambigüedades sin preguntar todo? |
 
 ---
 
