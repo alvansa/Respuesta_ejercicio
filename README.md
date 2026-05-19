@@ -38,6 +38,8 @@ Debes completar las siguientes tareas y dejar tus scripts en la carpeta `parte_2
 
 ### Tarea 1 — Diagnóstico de calidad
 Genera un reporte de calidad de la base. El entregable lo defines tu. Ten en consideración quien será el cliente final del reporte.
+ Consideraciones: 
+ - El script y el reporte serán evaluados.
 
 ### Tarea 2 — Limpieza y estandarización
 Escribe un script que limpie la base aplicando al menos 5 mejoras justificadas. 
