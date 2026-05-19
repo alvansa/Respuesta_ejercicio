@@ -37,7 +37,7 @@ En la carpeta `datos/` encontrarás un archivo de datos real de vehículos livia
 Debes completar las siguientes tareas y dejar tus scripts en la carpeta `parte_2_python/`:
 
 ### Tarea 1 — Diagnóstico de calidad
-Genera un reporte de calidad de la base. El entregable lo defines tu. Ten en consideración quien será el cliente final del reporte.
+Genera un script que cree un reporte de calidad de la base. El entregable lo defines tu. Ten en consideración quien será el cliente final del reporte.
  Consideraciones: 
  - El script y el reporte serán evaluados.
 
