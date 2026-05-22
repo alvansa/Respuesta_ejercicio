@@ -14,7 +14,7 @@ Respuesta a el ejercicio de CMS para postular al cargo de Ingeniero de datos
 ### Clonar repositorio
 ```bash
 git clone https://github.com/alvansa/Respuesta_ejercicio.git
-cd mi-proyecto
+cd Respuesta_ejercicio
 ```
 
 ## Linux/Mac
