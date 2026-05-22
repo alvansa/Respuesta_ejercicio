@@ -1,0 +1,4 @@
+pandas==3.0.3
+openpyxl==3.1.5
+unidecode==1.4.0
+pyyaml==6.0.3

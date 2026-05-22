@@ -1,73 +1,38 @@
 # Ejercicio Técnico — Data Engineer
 **Centro de Movilidad Sostenible (CMS)**
 
-## Instrucciones generales
+# Ejercicio de CMS
 
-Bienvenido/a al ejercicio técnico del proceso de selección del CMS. Este ejercicio tiene dos partes y está diseñado para que puedas mostrar tu forma de trabajar con datos y tu criterio técnico.
+Respuesta a el ejercicio de CMS para postular al cargo de Ingeniero de datos
 
-**Plazo:** 22 de mayo a las 16:00 horas.
+## 📋 Requisitos Previos
+- Python 3.13+
+- pip
 
-**Cómo entregar:**
-Vía correo guiándote por los siguientes pasos: 
-1. Clonar el repositorio en su computador: git clone https://github.com/catalina-lang/ejercicio-cms-data
-2. El repositorio que clonan puede ser público o privado. Si es público, basta con que nos envíen el link para poder acceder a él (no será trivial que los otros postulantes lleguen a él, así que no hay mayor problema con eso). Si deciden hacerlo privado, para mayor seguridad, deben tener en cuenta el punto número 3. 
-3. Agregar al usuario "catalina-lang" como colaborador para que podamos revisar su trabajo: Settings → Collaborators → Add people → busca "catalina-lang"
-4. Enviarnos el link de su repositorio al correo indicado al momento de enviar el ejercicio.
+## Instalación
 
-**Algunas aclaraciones:**
-- No hay respuestas únicas correctas — nos interesa tu razonamiento y cómo tomas decisiones
-- No puedes hacernos preguntas para resolver este ejercicio. Si algo no está claro, puedes hacer supuestos razonables y documentarlos
-- Valoramos código limpio y bien documentado por sobre código extenso
-- El README de tu entrega debe explicar cómo correr tu solución
+### Clonar repositorio
+```bash
+git clone https://github.com/alvansa/Respuesta_ejercicio.git
+cd mi-proyecto
+```
 
----
+## Linux/Mac
+python -m venv venv
+source venv/bin/activate
 
-## Parte 1 — Google Cloud Platform
+## Windows
+python -m venv venv
+venv\Scripts\activate
 
-Responde las preguntas conceptuales en el archivo `parte_1_gcp/respuestas.md`.
 
-No es necesario que tengas acceso a GCP (Google Cloud Plataform) para responder — buscamos entender tu razonamiento y conocimiento de los servicios.
+## Instalar dependencias
+pip install -r requirements.txt
 
----
 
-## Parte 2 — Python y procesamiento de datos
+## Ejecucion 
+El script principal es el orquestador que se encuentra en el archivo 'mainOrquestator.py' y su ejecucion es:
 
-En la carpeta `datos/` encontrarás un archivo de datos real de vehículos livianos del sistema de certificación vehicular chileno. Contiene variables técnicas como tipo de combustible, emisiones, consumo energético e identificación del vehículo.
-
-Debes completar las siguientes tareas y dejar tus scripts en la carpeta `parte_2_python/`:
-
-### Tarea 1 — Diagnóstico de calidad
-Genera un script que cree un reporte de calidad de la base. El entregable lo defines tu. Ten en consideración quien será el cliente final del reporte.
- Consideraciones: 
- - El script y el reporte serán evaluados.
-
-### Tarea 2 — Limpieza y estandarización
-Escribe un script que limpie la base aplicando al menos 5 mejoras justificadas. 
-Consideraciones: 
-- El script será evaluado
-- El output debe ser la base limpia lista para análisis. Importante: *No* debes adjuntar la base limpia, ya que esta se obtendrá una vez corramos tu código. 
-
-### Tarea 3 — Orquestación
-Diseña un orquestador simple en Python que encadene al menos 3 scripts. El objetivo es que utilice los scripts que creaste en las tareas anteriores.
-
-El orquestador debe reflejar cómo estructurarías un pipeline real.
-
-Hint tarea 3: Para esta tarea ten en consideración que los tres puntos están relacionados.
-
----
-
-## Lo que evaluamos
-
-| Criterio | Qué miramos |
-|---|---|
-| Calidad del código | ¿Es modular, legible y mantenible por otro? |
-| Criterio técnico | ¿Las decisiones de limpieza están justificadas? |
-| GCP | ¿Entiende los servicios y cuándo usar cada uno? |
-| Documentación | ¿El repositorio tiene README? ¿El código tiene comentarios útiles? |
-| Autonomía | ¿Resolvió ambigüedades sin preguntar todo? |
-| Funcionalidad | ¿El orquestador funciona? |
-| Facilidad | ¿Es fácil para alguien más ejecutar los scripts? |
-
----
-
-*Centro de Movilidad Sostenible — cmsostenible.org*
+```bash
+python parte_2_python/mainOrchestator.py
+```

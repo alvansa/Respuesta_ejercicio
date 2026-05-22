@@ -1,0 +1,63 @@
+Resultados de Completitud:
+	Marca => Valores faltantes: 0, Porcentaje faltante: 0.0%
+	Modelo => Valores faltantes: 0, Porcentaje faltante: 0.0%
+	Transmisión => Valores faltantes: 0, Porcentaje faltante: 0.0%
+	Combustible => Valores faltantes: 107, Porcentaje faltante: 5.22%
+	Propulsión => Valores faltantes: 0, Porcentaje faltante: 0.0%
+	Cilindrada (Lts.) => Valores faltantes: 0, Porcentaje faltante: 0.0%
+	Tipo de Carroceria => Valores faltantes: 0, Porcentaje faltante: 0.0%
+	Código de Informe Técnico => Valores faltantes: 0, Porcentaje faltante: 0.0%
+	N° Cert. => Valores faltantes: 0, Porcentaje faltante: 0.0%
+	Fecha de Homologación => Valores faltantes: 0, Porcentaje faltante: 0.0%
+	Norma Europea => Valores faltantes: 0, Porcentaje faltante: 0.0%
+	Emisiones de CO2 (g/km) => Valores faltantes: 0, Porcentaje faltante: 0.0%
+	Rendimiento de Combustible (km/l) => Valores faltantes: 0, Porcentaje faltante: 0.0%
+	Potencia Máxima del Motor (kw) => Valores faltantes: 2, Porcentaje faltante: 0.1%
+	Categoría vehículo => Valores faltantes: 1, Porcentaje faltante: 0.05%
+	P.B.V. (kg) => Valores faltantes: 1, Porcentaje faltante: 0.05%
+	Distancia entre ejes (mm) => Valores faltantes: 1, Porcentaje faltante: 0.05%
+	Ancho vehículo (mm) => Valores faltantes: 1, Porcentaje faltante: 0.05%
+	Foot Print (mt2) => Valores faltantes: 1, Porcentaje faltante: 0.05%
+	Importador => Valores faltantes: 1, Porcentaje faltante: 0.05%
+
+----------------------------------
+
+Resultados para unicidad 
+Codigo_Informe_Tecnico:
+	Valores duplicados: 108, Porcentaje duplicado: 5.27%
+Numero_Certificado:
+	Valores duplicados: 712, Porcentaje duplicado: 34.73%
+
+----------------------------------
+
+Resultados de datos que coinciden con rangos esperados
+Fecha de Homologación:
+	Valores invalidos 0
+Transmisión:
+	Valores invalidos 126
+Rendimiento de Combustible (km/l):
+	Valores invalidos 253
+P.B.V. (kg):
+	Valores invalidos 1
+
+----------------------------------
+
+Resultados de datos sea coherentes entre si
+Propulsion/Cilindrada:
+	Valores invalidos: 15 Porcetanje: 0.73
+Propulsion/Emisiones:
+	Valores invalidos: 128 Porcetanje: 6.24
+Propulsion/Rendimiento:
+	Valores invalidos: 128 Porcetanje: 6.24
+Propulsion/Norma:
+	Valores invalidos: 103 Porcetanje: 5.02
+
+----------------------------------
+
+Resultados de verificacion de tipo de datos sea correcto
+Fecha Homologacion:
+	Valores invalidos: 0 Porcetanje: 0.0
+Rendimiento combustible:
+	Valores invalidos: 0 Porcetanje: 0.0
+P.B.V:
+	Valores invalidos: 0 Porcetanje: 0.0
